@@ -33,7 +33,7 @@ int main(void)
     const int screenHeight = 450;
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(screenWidth, screenHeight, "raylib-thetanil [shaders] example - raymarching shapes");
+    InitWindow(screenWidth, screenHeight, "raylib-thetanil2 [shaders] example - raymarching shapes");
 
     Camera camera = {0};
     camera.position = (Vector3){2.5f, 2.5f, 3.0f}; // Camera position
